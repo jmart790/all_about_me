@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Contact Me! </title>
+  </head>
+  <body>
+    <!-- This is a navigational bar -->
+    <nav>
+      <ul>
+        <li> <a href="index.html"> Home </a> </li>
+        <li> <a href="contact.html"> Contact Me </a> </li>
+      </ul>
+    </nav>
+    <!-- Main code for my contact page -->
+    <main>
+      <h1> Use this form to contact me! </h1>
+      <form
+        class="contact_form"
+        action="https://formspree.io/jmart790@fiu.edu"
+        method="POST"
+      >
+        <div>
+          <label for="your_name"> Your Name </label>
+          <input id="your_name" type="text" name="your_name" />
+        </div>
+
+        <div>
+          <label for="your_message"> Your Message </label>
+          <textarea name="your_message" rows="8" cols="80"> </textarea>
+        </div>
+
+        <div>
+          <button type="button" name="Submit"> Send </button>
+          <button type="reset" name="Reset"> Clear </button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
